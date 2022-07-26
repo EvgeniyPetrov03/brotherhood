@@ -1,0 +1,33 @@
+:root {
+  // === Colors === //
+  --color-blue-clair-handee: #12b6ca;
+  --color-blue-opasity: rgb(51 77 110 / 15%);
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #c4c4c4;
+  --color-light-gray: #F4F5F7;
+  --color-steel-blue: #283d5b;
+  --color-light-green: #cce680;
+  --color-mint: #60bf8e;
+  --color-lime: #a8d71e;
+  --color-bright-sky-blue: #00dbff;
+
+  // Primary
+  --color-green: #84CB56;
+  --color-bright-green: #8ed963;
+  --color-dark-green: #6dac44;
+
+  // Secondary
+  --color-blue: #253166;
+  --color-bright-blue: #333f7b;
+  --color-deep-blue: #0a1a48;
+
+  // Danger
+  --color-red: #f44336;
+  --color-bright-red: #ff6457;
+  --color-dark-red: #d7392a;
+
+  // === Gradients === //
+  --main-gradien-underline: linear-gradient(0deg, #12b6ca 0%, #beff3f 100%);
+  --black-gradient: linear-gradient(7.87deg, black 16.17%, black 86.85%);
+}

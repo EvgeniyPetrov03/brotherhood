@@ -1,0 +1,82 @@
+:host {
+  margin: 20px;
+
+  header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 5px;
+    overflow: hidden;
+    align-items: center;
+
+    img {
+      width: 64px;
+      height: 64px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      white-space: nowrap;
+      gap: 5px;
+
+      p {
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        cursor: default;
+
+        &:nth-child(1) {
+          align-items: center;
+          gap: 15px;
+          font-size: 18px;
+
+          mat-icon {
+            cursor: pointer;
+            color: #20b2aa;
+          }
+        }
+
+        &:nth-child(2) {
+          font-size: 12px;
+
+          span {
+            &:nth-child(1) {
+              color: blue;
+            }
+
+            &:nth-child(2) {
+              color: green;
+            }
+
+            &:nth-child(3) {
+              color: gray;
+            }
+          }
+        }
+
+        &:nth-child(3) {
+          font-size: 14px;
+
+          a {
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+            letter-spacing: 1.2px;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .mat-tab-group {
+      width: 70%;
+    }
+  }
+}
+

@@ -1,0 +1,37 @@
+<div class="header">
+  <div>
+    <app-item-file-type [type]="'release'"></app-item-file-type>
+    <p>jei-1.18.2-9.7.0.209.jar</p>
+  </div>
+  <button mat-stroked-button>
+    <mat-icon>download</mat-icon>
+    Download
+  </button>
+</div>
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <table>
+          <tr>
+            <th>Filename</th>
+            <th>Uploaded by</th>
+            <th>Uploaded</th>
+            <th>Game Version</th>
+            <th>Size</th>
+            <th>Downloads</th>
+          </tr>
+          <tr>
+            <td>ei-1.18.2-9.7.0.209.jar</td>
+            <td>mezz</td>
+            <td>Jun 25, 2022</td>
+            <td>1.18.2</td>
+            <td>970.14 KB</td>
+            <td>581,529</td>
+          </tr>
+        </table>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <app-item-changelog></app-item-changelog>
+  </mat-expansion-panel>
+</mat-accordion>

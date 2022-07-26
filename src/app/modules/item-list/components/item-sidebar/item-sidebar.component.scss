@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: max-content;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: 0 0 5px 0 grey;
+  border-radius: 10px;
+
+  section {
+    .person {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        width: 32px;
+        height: 32px;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+          font-size: 14px;
+        }
+
+        .status {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

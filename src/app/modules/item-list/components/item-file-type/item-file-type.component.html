@@ -1,0 +1,7 @@
+<ng-container [ngSwitch]="type">
+  <span class="danger" *ngSwitchCase="'alpha'">A</span>
+  <span class="warn" *ngSwitchCase="'betta'">B</span>
+  <span class="safe" *ngSwitchCase="'release'">R</span>
+  <span *ngSwitchCase="null">?</span>
+  <span *ngSwitchDefault>?</span>
+</ng-container>

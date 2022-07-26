@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="360" viewBox="0 0 300 360">
+  <polygon points="150,330 250,230 210,180 200,245" fill="url(#neck)" stroke="black"/>
+  <polygon points="150,330 50,230 90,180 100,245" fill="url(#neck)" stroke="black"/>
+  <polygon points="250,260 285,225 235,125 215,65 200,70 190,145 210,180 255,235" fill="url(#hoodRight)" stroke="black"/>
+  <polygon points="50,260 15,225 65,125 85,65 100,70 110,145 90,180 45,235" fill="url(#hoodLeft)" stroke="black"/>
+  <polygon points="150,10 215,65 200,70 190,145 150,180 110,145 100,70 85,65" fill="url(#hoodCenter)" stroke="black"/>
+  <polygon points="150,180 190,145 210,180 200,245 150,330 100,245 90,180 110,145" fill="url(#inside)" stroke="black"/>
+  <polygon points="150,210 185,170 200,180 185,245 160,270 140,270 115,245 100,180 115,170" fill="url(#face)" stroke="black" stroke-width="1" stroke-opacity="0.5"/>
+  <polygon points="250,260 255,235 250,230 235,245" fill="url(#hood)" stroke="black"/>
+  <polygon points="50,260 45,235 50,230 65,245" fill="url(#hood)" stroke="black"/>
+
+  <path
+    fill="transparent" stroke="black" stroke-width="2"
+    d="M150 10 L215 65 L235 125 L285 225 L250 260 M150 180 L190 145 L210 180 L200 245 L150 330
+      M210 180 L255 235 M150 330 L250 230 M250 260 L270 220 M255 235 L250 260 M250 260 L235 245 M270 220 L235 175
+      M150 10 L85 65 L65 125 L15 225 L50 260 M150 180 L110 145 L90 180 L100 245 L150 330 M90 180 L45 235 M150 330
+      L50 230 M50 260 L30 220 M45 235 L50 260 M50 260 L65 245 M30 220 L65 175
+      M150 10 L150 180 M215 65 L200 70 M85 65 L100 70 M190 145 L200 70 M110 145 L100 70 M235 125 L230 150 M65 125 L70 150
+      M140 245 L160 245"
+  />
+  
+  <defs>
+    <linearGradient id="neck" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="yellow"/>
+      <stop offset="100%" stop-color="white"/>
+    </linearGradient>
+    <linearGradient id="hoodCenter" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="blue"/>
+      <stop offset="100%" stop-color="yellow"/>
+    </linearGradient>
+    <linearGradient id="hoodLeft" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="15%" stop-color="blue"/>
+      <stop offset="90%" stop-color="yellow"/>
+    </linearGradient>
+    <linearGradient id="hoodRight" x1="1" x2="0" y1="0" y2="1">
+      <stop offset="15%" stop-color="blue"/>
+      <stop offset="90%" stop-color="yellow"/>
+    </linearGradient>
+    <linearGradient id="inside" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="black"/>
+      <stop offset="100%" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#444"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+</svg>
+

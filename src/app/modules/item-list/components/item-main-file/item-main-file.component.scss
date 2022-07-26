@@ -1,0 +1,47 @@
+:host {
+  box-shadow: 0 0 10px -5px;
+  border-radius: 5px;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+    div {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  mat-expansion-panel {
+    box-shadow: none;
+    background-color: var(--color-light-gray);
+
+    mat-expansion-panel-header {
+      padding: 10px 24px;
+    }
+  }
+
+  table {
+    font-size: 14px;
+    width: 100%;
+
+    tr {
+      td, th {
+        text-align: left;
+      }
+    }
+  }
+}
+
+::ng-deep {
+  .mat-expansion-panel-content {
+    border-top: 1px dashed;
+  }
+}

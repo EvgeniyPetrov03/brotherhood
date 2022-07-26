@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/scss/tooltip";
+@import "assets/scss/colors";
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  hr {
+    width: 100%;
+    border: none;
+    border-top: 3px double #000;
+    color: #000;
+    overflow: visible;
+    text-align: center;
+    size: 5px;
+
+    &:after {
+      background: #fff;
+      content: '§';
+      padding: 0 4px;
+      position: relative;
+      top: -13px;
+    }
+  }
+}
+
